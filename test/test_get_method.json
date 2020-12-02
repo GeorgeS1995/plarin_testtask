@@ -1,0 +1,441 @@
+[
+  {
+    "input": {},
+    "output": [
+      {
+        "name": "Flynn Vang",
+        "email": "turpis.non@Nunc.edu",
+        "age": 69,
+        "company": "Twitter",
+        "join_date": "2003-12-29T02:18:10+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 9632
+      },
+      {
+        "name": "Cedric Page",
+        "email": "a.facilisis.non@cursus.com",
+        "age": 63,
+        "company": "Yandex",
+        "join_date": "2001-06-11T02:08:52+00:00",
+        "job_title": "janitor",
+        "gender": "male",
+        "salary": 9688
+      },
+      {
+        "name": "Rudyard Morales",
+        "email": "dolor.Nulla.semper@natoquepenatibuset.ca",
+        "age": 20,
+        "company": "Google",
+        "join_date": "1999-04-14T07:32:21+00:00",
+        "job_title": "manager",
+        "gender": "male",
+        "salary": 9480
+      },
+      {
+        "name": "Sawyer Robbins",
+        "email": "imperdiet.non.vestibulum@pede.ca",
+        "age": 37,
+        "company": "Yandex",
+        "join_date": "2012-12-29T03:00:10+00:00",
+        "job_title": "developer",
+        "gender": "female",
+        "salary": 4944
+      },
+      {
+        "name": "Brennan Baxter",
+        "email": "elementum.at.egestas@ridiculusmus.co.uk",
+        "age": 37,
+        "company": "Amazon",
+        "join_date": "2000-03-02T23:28:15+00:00",
+        "job_title": "designer",
+        "gender": "female",
+        "salary": 1793
+      },
+      {
+        "name": "Nasim Montgomery",
+        "email": "id.risus@ategestasa.org",
+        "age": 27,
+        "company": "Plarin",
+        "join_date": "2002-12-25T13:04:16+00:00",
+        "job_title": "driver",
+        "gender": "female",
+        "salary": 1088
+      },
+      {
+        "name": "Tucker Olsen",
+        "email": "auctor.vitae@Vestibulumaccumsan.com",
+        "age": 39,
+        "company": "LinkedIn",
+        "join_date": "2004-02-25T23:20:04+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 6791
+      },
+      {
+        "name": "Ethan Mcconnell",
+        "email": "ornare@est.net",
+        "age": 24,
+        "company": "LinkedIn",
+        "join_date": "1999-12-25T05:32:59+00:00",
+        "job_title": "developer",
+        "gender": "other",
+        "salary": 6397
+      },
+      {
+        "name": "Stuart Austin",
+        "email": "ac.turpis@atsem.edu",
+        "age": 54,
+        "company": "Twitter",
+        "join_date": "2013-02-23T00:08:10+00:00",
+        "job_title": "driver",
+        "gender": "other",
+        "salary": 4114
+      },
+      {
+        "name": "Ferris Branch",
+        "email": "dui.Fusce.aliquam@enim.net",
+        "age": 52,
+        "company": "Google",
+        "join_date": "2006-10-25T05:20:15+00:00",
+        "job_title": "janitor",
+        "gender": "male",
+        "salary": 6845
+      }
+    ]
+  },
+  {
+    "input": {
+      "name": "Fly"
+    },
+    "output": [
+      {
+        "name": "Flynn Vang",
+        "email": "turpis.non@Nunc.edu",
+        "age": 69,
+        "company": "Twitter",
+        "join_date": "2003-12-29T02:18:10+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 9632
+      }
+    ]
+  },
+  {
+    "input": {
+      "email": ".com"
+    },
+    "output": [
+      {
+        "name": "Cedric Page",
+        "email": "a.facilisis.non@cursus.com",
+        "age": 63,
+        "company": "Yandex",
+        "join_date": "2001-06-11T02:08:52+00:00",
+        "job_title": "janitor",
+        "gender": "male",
+        "salary": 9688
+      },
+      {
+        "name": "Tucker Olsen",
+        "email": "auctor.vitae@Vestibulumaccumsan.com",
+        "age": 39,
+        "company": "LinkedIn",
+        "join_date": "2004-02-25T23:20:04+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 6791
+      }
+    ]
+  },
+  {
+    "input": {
+      "age_max": 27
+    },
+    "output": [
+      {
+        "name": "Rudyard Morales",
+        "email": "dolor.Nulla.semper@natoquepenatibuset.ca",
+        "age": 20,
+        "company": "Google",
+        "join_date": "1999-04-14T07:32:21+00:00",
+        "job_title": "manager",
+        "gender": "male",
+        "salary": 9480
+      },
+      {
+        "name": "Nasim Montgomery",
+        "email": "id.risus@ategestasa.org",
+        "age": 27,
+        "company": "Plarin",
+        "join_date": "2002-12-25T13:04:16+00:00",
+        "job_title": "driver",
+        "gender": "female",
+        "salary": 1088
+      },
+      {
+        "name": "Ethan Mcconnell",
+        "email": "ornare@est.net",
+        "age": 24,
+        "company": "LinkedIn",
+        "join_date": "1999-12-25T05:32:59+00:00",
+        "job_title": "developer",
+        "gender": "other",
+        "salary": 6397
+      }
+    ]
+  },
+  {
+    "input": {
+      "company": "Twitt"
+    },
+    "output": [
+      {
+        "name": "Flynn Vang",
+        "email": "turpis.non@Nunc.edu",
+        "age": 69,
+        "company": "Twitter",
+        "join_date": "2003-12-29T02:18:10+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 9632
+      },
+      {
+        "name": "Stuart Austin",
+        "email": "ac.turpis@atsem.edu",
+        "age": 54,
+        "company": "Twitter",
+        "join_date": "2013-02-23T00:08:10+00:00",
+        "job_title": "driver",
+        "gender": "other",
+        "salary": 4114
+      }
+    ]
+  },
+  {
+    "input": {
+      "join_date_max": "2000-12-01T00:00:00+00:00"
+    },
+    "output": [
+      {
+        "name": "Rudyard Morales",
+        "email": "dolor.Nulla.semper@natoquepenatibuset.ca",
+        "age": 20,
+        "company": "Google",
+        "join_date": "1999-04-14T07:32:21+00:00",
+        "job_title": "manager",
+        "gender": "male",
+        "salary": 9480
+      },
+      {
+        "name": "Brennan Baxter",
+        "email": "elementum.at.egestas@ridiculusmus.co.uk",
+        "age": 37,
+        "company": "Amazon",
+        "join_date": "2000-03-02T23:28:15+00:00",
+        "job_title": "designer",
+        "gender": "female",
+        "salary": 1793
+      },
+      {
+        "name": "Ethan Mcconnell",
+        "email": "ornare@est.net",
+        "age": 24,
+        "company": "LinkedIn",
+        "join_date": "1999-12-25T05:32:59+00:00",
+        "job_title": "developer",
+        "gender": "other",
+        "salary": 6397
+      }
+    ]
+  },
+  {
+    "input": {
+      "job_title": "janitor"
+    },
+    "output": [
+      {
+        "name": "Flynn Vang",
+        "email": "turpis.non@Nunc.edu",
+        "age": 69,
+        "company": "Twitter",
+        "join_date": "2003-12-29T02:18:10+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 9632
+      },
+      {
+        "name": "Cedric Page",
+        "email": "a.facilisis.non@cursus.com",
+        "age": 63,
+        "company": "Yandex",
+        "join_date": "2001-06-11T02:08:52+00:00",
+        "job_title": "janitor",
+        "gender": "male",
+        "salary": 9688
+      },
+      {
+        "name": "Tucker Olsen",
+        "email": "auctor.vitae@Vestibulumaccumsan.com",
+        "age": 39,
+        "company": "LinkedIn",
+        "join_date": "2004-02-25T23:20:04+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 6791
+      },
+      {
+        "name": "Ferris Branch",
+        "email": "dui.Fusce.aliquam@enim.net",
+        "age": 52,
+        "company": "Google",
+        "join_date": "2006-10-25T05:20:15+00:00",
+        "job_title": "janitor",
+        "gender": "male",
+        "salary": 6845
+      }
+    ]
+  },
+  {
+    "input": {
+      "gender": "female"
+    },
+    "output": [
+      {
+        "name": "Flynn Vang",
+        "email": "turpis.non@Nunc.edu",
+        "age": 69,
+        "company": "Twitter",
+        "join_date": "2003-12-29T02:18:10+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 9632
+      },
+      {
+        "name": "Sawyer Robbins",
+        "email": "imperdiet.non.vestibulum@pede.ca",
+        "age": 37,
+        "company": "Yandex",
+        "join_date": "2012-12-29T03:00:10+00:00",
+        "job_title": "developer",
+        "gender": "female",
+        "salary": 4944
+      },
+      {
+        "name": "Brennan Baxter",
+        "email": "elementum.at.egestas@ridiculusmus.co.uk",
+        "age": 37,
+        "company": "Amazon",
+        "join_date": "2000-03-02T23:28:15+00:00",
+        "job_title": "designer",
+        "gender": "female",
+        "salary": 1793
+      },
+      {
+        "name": "Nasim Montgomery",
+        "email": "id.risus@ategestasa.org",
+        "age": 27,
+        "company": "Plarin",
+        "join_date": "2002-12-25T13:04:16+00:00",
+        "job_title": "driver",
+        "gender": "female",
+        "salary": 1088
+      },
+      {
+        "name": "Tucker Olsen",
+        "email": "auctor.vitae@Vestibulumaccumsan.com",
+        "age": 39,
+        "company": "LinkedIn",
+        "join_date": "2004-02-25T23:20:04+00:00",
+        "job_title": "janitor",
+        "gender": "female",
+        "salary": 6791
+      }
+    ]
+  },
+  {
+    "input": {
+      "salary_max": 5000
+    },
+    "output": [
+      {
+        "name": "Sawyer Robbins",
+        "email": "imperdiet.non.vestibulum@pede.ca",
+        "age": 37,
+        "company": "Yandex",
+        "join_date": "2012-12-29T03:00:10+00:00",
+        "job_title": "developer",
+        "gender": "female",
+        "salary": 4944
+      },
+      {
+        "name": "Brennan Baxter",
+        "email": "elementum.at.egestas@ridiculusmus.co.uk",
+        "age": 37,
+        "company": "Amazon",
+        "join_date": "2000-03-02T23:28:15+00:00",
+        "job_title": "designer",
+        "gender": "female",
+        "salary": 1793
+      },
+      {
+        "name": "Nasim Montgomery",
+        "email": "id.risus@ategestasa.org",
+        "age": 27,
+        "company": "Plarin",
+        "join_date": "2002-12-25T13:04:16+00:00",
+        "job_title": "driver",
+        "gender": "female",
+        "salary": 1088
+      },
+      {
+        "name": "Stuart Austin",
+        "email": "ac.turpis@atsem.edu",
+        "age": 54,
+        "company": "Twitter",
+        "join_date": "2013-02-23T00:08:10+00:00",
+        "job_title": "driver",
+        "gender": "other",
+        "salary": 4114
+      }
+    ]
+  },
+  {
+    "input": {
+      "age_max": 50,
+      "salary_max": 5000
+    },
+    "output": [
+      {
+        "name": "Sawyer Robbins",
+        "email": "imperdiet.non.vestibulum@pede.ca",
+        "age": 37,
+        "company": "Yandex",
+        "join_date": "2012-12-29T03:00:10+00:00",
+        "job_title": "developer",
+        "gender": "female",
+        "salary": 4944
+      },
+      {
+        "name": "Brennan Baxter",
+        "email": "elementum.at.egestas@ridiculusmus.co.uk",
+        "age": 37,
+        "company": "Amazon",
+        "join_date": "2000-03-02T23:28:15+00:00",
+        "job_title": "designer",
+        "gender": "female",
+        "salary": 1793
+      },
+      {
+        "name": "Nasim Montgomery",
+        "email": "id.risus@ategestasa.org",
+        "age": 27,
+        "company": "Plarin",
+        "join_date": "2002-12-25T13:04:16+00:00",
+        "job_title": "driver",
+        "gender": "female",
+        "salary": 1088
+      }
+    ]
+  }
+]
