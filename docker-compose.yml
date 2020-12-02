@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+    app:
+        build: .
+        logging:
+            options:
+                max-size: "10m"
+                max-file: "3"
+        restart: always
+        command: bash -c "cd /code && pytest -v && uvicorn main:app --host=0.0.0.0 --port=80"
+        ports:
+          - 80:80
+        environment:
+            - CONTRIB_MONGODB_DSN=
+        depends_on:
+            - db
+    db:
+        image: mongo:latest
+        logging:
+            options:
+                max-size: "10m"
+                max-file: "3"
+        restart: always
+        volumes:
+            - ./databases/mongo:/data/db
+        environment:
+            - MONGO_INITDB_ROOT_USERNAME=
+            - MONGO_INITDB_ROOT_PASSWORD=
